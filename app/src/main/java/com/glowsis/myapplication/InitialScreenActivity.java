@@ -22,6 +22,8 @@ public class InitialScreenActivity extends AppCompatActivity {
 	private EditText accessCode, merchantId, currency, amount, orderId, rsaKeyUrl, redirectUrl, cancelUrl;
 
 	private void init(){
+
+		////
 		accessCode = (EditText) findViewById(R.id.accessCode);
 		merchantId = (EditText) findViewById(R.id.merchantId);
 		orderId  = (EditText) findViewById(R.id.orderId);
